@@ -3,7 +3,6 @@ import { Html, Head, Main, NextScript } from 'next/document'
 const Document = () => (
   <Html lang="ko">
     <Head>
-      <title title="존맛국회" />
       <meta charSet="UTF-8" />
       <link
         href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo"
