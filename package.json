@@ -17,8 +17,9 @@
     "@emotion/babel-plugin": "^11.7.2"
   },
   "scripts": {
-    "build": "npm run buildData & npm run buildNext",
-    "buildNext": "next build",
-    "buildData": "node scripts/buildData.js"
+    "build": "npm run build:data & npm run build:next",
+    "build:next": "next build",
+    "build:data": "node scripts/buildData.js",
+    "dev": "next dev"
   }
 }
